@@ -37,11 +37,11 @@ The codebase is organized into core architectural components and downstream task
 ### 2. Downstream Tasks (Fine-Tuning)
 Scripts for fine-tuning the pre-trained GASTON model on specific social tasks:
 
-* **Norm Violation:** `gaston_ave_init_normvio_finetune.py` (Detecting rule-breaking comments).
-* **Hate Speech:** `gaston_ave_init_hateful_finetune.py` (Detecting hateful content in context).
-* **Mental Health:** `gaston_ave_init_dreaddit_finetune.py` (Stress detection).
-* **Toxicity Scoring:** `gaston_ave_init_ruddit_finetune.py` (Regression task for toxicity scores).
-* **Recommendation:** `gaston_ave_init_recommendation_finetune.py` (Link prediction for user-community recommendation).
+* **Norm Violation:** `contr_init_normvio_finetune.py` (Detecting rule-breaking comments).
+* **Hate Speech:** `contr_init_hateful_finetune.py` (Detecting hateful content in context).
+* **Mental Health:** `contr_init_dreaddit_finetune.py` (Stress detection).
+* **Toxicity Scoring:** `contr_init_ruddit_finetune.py` (Regression task for toxicity scores).
+* **Recommendation:** `contr_init_recommendation_finetune.py` (Link prediction for user-community recommendation).
 
 ---
 
