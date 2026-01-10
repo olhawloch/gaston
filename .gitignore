@@ -1,0 +1,48 @@
+# --- Python & Build Artifacts ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+.venv/
+build/
+dist/
+*.egg-info/
+
+# --- Deep Learning Checkpoints ---
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+one_model_connects_all_pretraining/
+checkpoints/
+models/
+
+# --- Logs & Experiment Tracking ---
+wandb/
+*.log
+lightning_logs/
+
+# --- Data ---
+*.parquet
+*.csv
+*.tsv
+*.jsonl
+*.npy
+# Specific data folders
+data/
+dataset/
+graph_data/
+graph_data_nov_2/
+subreddit2vec/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- Configuration & Secrets ---
+.env
+.env.local
+uv.lock
